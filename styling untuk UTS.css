@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#map {
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    margin: 0;
+}  
+
+#map-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-weight: 900;
+    font-family: Space Grotesk, serif;
+    font-size: 1.25em;
+    text-align: center;
+    background-image: linear-gradient(
+        to right, rgb(31, 243, 215), rgb(6, 243, 6), rgb(116, 245, 116), rgb(101, 255, 101), rgb(31, 243, 215)
+    );
+    padding: 0.8em;
+    margin: 0;
+}
